@@ -1,6 +1,10 @@
 BootStrap: docker
 From: ubuntu:18.04
 
+%labels
+    Maintainer zyou@osc.edu
+    Recipe https://github.com/OSC/sa_singularity_qgis
+
 %post
     apt update
     apt upgrade -y
