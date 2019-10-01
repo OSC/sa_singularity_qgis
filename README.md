@@ -24,14 +24,15 @@ singularity pull qgis.sif shub://OSC/sa_singularity_qgis
 ## Run
 
 ### Start QGIS
-
-```sh
-./qgis.sif
-```
-or 
+QGIS is started using the default run command:
 ```sh
 singularity run qgis.sif
 ```
+or as a native command
+```sh
+./qgis.sif
+```
+
 
 ## License
 
